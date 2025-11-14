@@ -56,7 +56,7 @@ Developing a comprehensive evaluation framework for AI agents is a challenging e
 
 **Agent Response Assessment:** This core process is essential for evaluating the quality and accuracy of an agent's outputs. It involves determining if the agent delivers pertinent, correct, logical, unbiased, and accurate information in response to given inputs. Assessment metrics may include factual correctness, fluency, grammatical precision, and adherence to the user's intended purpose.
 
-<mark><strong>智能体响应评估：</strong>这一核心过程对于评估智能体输出的质量和准确性至关重要。它涉及确定智能体是否针对给定输入提供相关、正确、合乎逻辑、无偏见且准确的信息。评估指标可能包括事实正确性、流畅性、语法精确性以及对用户预期目的的遵循程度。</mark>
+<mark><strong>智能体响应评估：</strong>这一核心过程对于评估智能体输出的质量和准确性至关重要。它涉及确定智能体是否针对给定输入提供相关、正确、合乎逻辑、无偏见且准确的信息。评估指标可能包括事实正确性、流畅性、语法精确性以及对用户预期目的遵循程度。</mark>
 
 ```py
 def evaluate_response_accuracy(agent_output: str, expected_output: str) -> float:
