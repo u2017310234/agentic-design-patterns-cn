@@ -60,7 +60,7 @@ The Reflection pattern is crucial for building agents that can produce high-qual
 
 The intersection of reflection with goal setting and monitoring (see Chapter 11) is worth noticing. A goal provides the ultimate benchmark for the agent's self-evaluation, while monitoring tracks its progress. In a number of practical cases, Reflection then might act as the corrective engine, using monitored feedback to analyze deviations and adjust its strategy. This synergy transforms the agent from a passive executor into a purposeful system that adaptively works to achieve its objectives.
 
-<mark>需要特别注意反思模式与目标设定和监控（见第 11 章）的联系。目标为智能体的自我评估提供最终基准，监控则跟踪其进度。在许多实际情形中，反思会充当纠偏机制：利用监控反馈分析偏离之处并据此调整策略。这样的协同作用使智能体从单纯执行者变成有目的的、自主适应以实现目标的系统。</mark>
+<mark>需要特别注意反思模式与目标设定和监控（见第 11 章）的联系。目标为智能体的自我评估提供最终基准，监控则跟踪其进度。在许多实际情形中，反思会充当纠偏机制：利用监控反馈分析偏离之处并据此调整策略。这样的协同作用使智能体从单纯执行者变成有目的、自主适应以实现目标的系统。</mark>
 
 Furthermore, the effectiveness of the Reflection pattern is significantly enhanced when the LLM keeps a memory of the conversation (see Chapter 8). This conversational history provides crucial context for the evaluation phase, allowing the agent to assess its output not just in isolation, but against the backdrop of previous interactions, user feedback, and evolving goals. It enables the agent to learn from past critiques and avoid repeating errors. Without memory, each reflection is a self-contained event; with memory, reflection becomes a cumulative process where each cycle builds upon the last, leading to more intelligent and context-aware refinement.
 

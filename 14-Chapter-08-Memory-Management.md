@@ -377,7 +377,7 @@ Session and State can be conceptualized as short-term memory for a single chat s
 
 The ADK offers several implementations for creating this long-term knowledge store. The InMemoryMemoryService provides a temporary storage solution suitable for testing purposes, but data is not preserved across application restarts. For production environments, the VertexAiRagMemoryService is typically utilized. This service leverages Google Cloud's Retrieval Augmented Generation (RAG) service, enabling scalable, persistent, and semantic search capabilities (Also, refer to the chapter 14 on RAG).
 
-<mark>ADK 提供多种实现来创建这种长期知识存储。<code>InMemoryMemoryService</code> 适用于测试目的的临时存储解决方案，但其数据在应用程序重启后不会保留。对于生产环境，通常采用 <code>VertexAiRagMemoryService</code>。该服务利用 Google Cloud 的检索增强生成（RAG）服务，提供可扩展、持久化且支持语义搜索的能力（有关 RAG 的详细信息，请参阅第 14 章）。</mark>
+<mark>ADK 提供多种实现来创建这种长期知识存储。<code>InMemoryMemoryService</code> 适用于测试目的临时存储解决方案，但其数据在应用程序重启后不会保留。对于生产环境，通常采用 <code>VertexAiRagMemoryService</code>。该服务利用 Google Cloud 的检索增强生成（RAG）服务，提供可扩展、持久化且支持语义搜索的能力（有关 RAG 的详细信息，请参阅第 14 章）。</mark>
 
 ```python
 # 示例：使用 VertexAiRagMemoryService
